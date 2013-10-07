@@ -68,6 +68,17 @@ p {
 	margin: 10px 0px 20px 0px;
 }
 
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #116189;
+}
+
+h2 {
+	font-weight: bold;
+	color: #116189;
+}
+
 .factory {
 	float: left;
 	padding-right: 20px;
@@ -76,6 +87,17 @@ p {
 .shipping {
 	float: right;
 	padding-left: 20px;
+}
+
+.bio {
+	display: block;
+	clear: both;
+	margin: 10px 0px;
+}
+
+.portrait {
+	float: left;
+	padding: 0px 10px 10px 0px;
 }
 
 .footer {
