@@ -19,7 +19,7 @@ body {
 	margin: 0 auto;
 	margin-top: 20px;
 	padding: 20px;
-	box-shadow: 6px;
+	box-shadow: 5px 5px 5px #CCC;
 }
 
 .logo {
@@ -43,7 +43,7 @@ nav {
 	margin: 20px 0px 20px 0px;
 	display: block;
 	background-color: #D74710;
-	border-radius: 10px;
+	border-radius: 5px;
 	padding: 10px 0px;
 }
 
@@ -53,7 +53,7 @@ nav li {
 	font-weight: bold;
 }
 
-nav a:visited, nav a:link, nav a:hover {
+nav a  {
 	text-decoration: none;
 	color: #FFF;
 	padding: 5px 10px;
@@ -61,14 +61,37 @@ nav a:visited, nav a:link, nav a:hover {
 
 nav a:hover{
 	background-color: #FF9D45;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 p {
-	margin: 10px 0px;
+	margin: 10px 0px 20px 0px;
 }
 
 .factory {
 	float: left;
 	padding-right: 20px;
+}
+
+.shipping {
+	float: right;
+	padding-left: 20px;
+}
+
+.footer {
+	clear: both;
+	font-style: italic;
+	font-size: 80%;
+	border-top: solid;
+	border-width: 1px;
+	border-color: #999;
+	margin-top: 30px;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: underline;
 }
